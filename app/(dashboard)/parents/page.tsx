@@ -2,13 +2,13 @@ import Announcements from '@/components/Announcements'
 import BigCalendar from '@/components/BigCalender'
 import React from 'react'
 
-const TeacherPage = () => {
+const ParentPage = () => {
     return (
         <div className='flex-1 p-4 flex gap-4 flex-col xl:flex-row'>
             {/* LEFT */}
             <div className='w-full xl:w-2/3'>
                 <div className='h-full bg-white p-4 rounded-md'>
-                    <h1 className='text-xl font-semibold'>Schedule</h1>
+                    <h1 className='text-xl font-semibold'>Schedule (Phi)</h1>
                     <BigCalendar />
                 </div>
             </div>
@@ -22,4 +22,4 @@ const TeacherPage = () => {
     )
 }
 
-export default TeacherPage;
+export default ParentPage;
